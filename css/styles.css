@@ -1,0 +1,42 @@
+html, body {
+    font: 16px/1.5 Helvetica, Sans-Serif;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    color: #82868f;
+    height: auto;
+}
+header a {
+    color: #82868f;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header div {
+    display: inline-block;
+}
+.logo {
+    margin-left: 10px;
+}
+nav {
+    font-size: 14px;
+    float: right;
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 5px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.btn {
+    padding: 10px;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 15px;
+    background: #0ebfdd;
+    color: #fff;
+}
