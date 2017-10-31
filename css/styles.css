@@ -63,17 +63,31 @@ section .img {
 .about h1 {
     color: #0ebfdd;
 }
-.team {
+.team-text {
     background: #0ebfdd;
     color: #fff;
 }
+.team-member {
+    margin-bottom: 15px;
+}
+.team-member-img {
+    text-align: center;
+}
 .team-member-img img {
-    height: 75px;
-    width: 75px;
+    height: 120px;
+    width: 120px;
     border-radius: 100px;
 }
 .team-member-txt {
     text-align: center;
+}
+.btn-team {
+    width: 100%;
+    border: 1px solid #fff;
+    padding: 15px;
+}
+.align-center {
+    margin: auto;
 }
 section .reset {
     padding: 0;
