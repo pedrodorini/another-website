@@ -93,3 +93,50 @@ section .reset {
     padding: 0;
     margin: 0;
 }
+footer {
+    padding-top: 20px;
+    text-align: center;
+    background: #45494d;
+    color: #fff;
+}
+footer a {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+footer div a {
+    font-size: 12px;
+}
+footer button {
+    margin: 20px 5px 0 5px;
+    padding: 25px;
+    background: #45494d;
+    border: 1px solid #d7dee4;
+    border-radius: 300px;
+}
+footer .reset {
+    margin: 0;
+    padding: 0;
+}
+.footer-content {
+    padding: 10px;
+    border-bottom: 1px solid #5a5e62;
+}
+.footer-content a {
+    font-size: 16px;
+}
+.btn-tt {
+    background: url("../icons/twitter-logo.png");
+}
+.btn-fb {
+    background: url("../icons/fb-logo.png");
+}
+.btn-em {
+    background: url("../icons/email-logo.png");
+}
+.btn-sm {
+    background-repeat: no-repeat;
+    background-position: center;
+}
