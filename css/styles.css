@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-
 html, body {
     font: 16px/1.5 'Roboto', Sans-serif !important;
     height: 100%;
@@ -63,6 +62,18 @@ section .img {
 }
 .about h1 {
     color: #0ebfdd;
+}
+.team {
+    background: #0ebfdd;
+    color: #fff;
+}
+.team-member-img img {
+    height: 75px;
+    width: 75px;
+    border-radius: 100px;
+}
+.team-member-txt {
+    text-align: center;
 }
 section .reset {
     padding: 0;
