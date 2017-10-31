@@ -55,3 +55,16 @@ section .img {
     position: relative;
     top: 200px;
 }
+.txt {
+    text-align: center;
+}
+.about {
+    color: #676a6d;
+}
+.about h1 {
+    color: #0ebfdd;
+}
+section .reset {
+    padding: 0;
+    margin: 0;
+}
