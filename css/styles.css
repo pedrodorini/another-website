@@ -42,6 +42,9 @@ nav {
     background: #0ebfdd;
     color: #fff;
 }
+.btn:hover {
+    background: #1ca8bf
+}
 section .img {
     height: 450px;
     background-size: cover;
@@ -63,19 +66,157 @@ section .img {
 .about h1 {
     color: #0ebfdd;
 }
-.team {
+.team-text {
     background: #0ebfdd;
     color: #fff;
 }
+.team-member {
+    margin-bottom: 15px;
+}
+.team-member-img {
+    text-align: center;
+}
 .team-member-img img {
-    height: 75px;
-    width: 75px;
+    height: 120px;
+    width: 120px;
     border-radius: 100px;
 }
 .team-member-txt {
     text-align: center;
 }
+.btn-team {
+    width: 100%;
+    border: 1px solid #fff;
+    padding: 15px;
+}
+.align-center {
+    margin: auto;
+}
 section .reset {
     padding: 0;
     margin: 0;
+}
+footer {
+    padding-top: 20px;
+    text-align: center;
+    background: #45494d;
+    color: #fff;
+}
+footer a {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+footer div a {
+    font-size: 12px;
+}
+footer button {
+    margin: 20px 5px 0 5px;
+    padding: 25px;
+    background: #45494d;
+    border: 1px solid #d7dee4;
+    border-radius: 300px;
+}
+footer .reset {
+    margin: 0;
+    padding: 0;
+}
+.footer-content {
+    padding: 10px;
+    border-bottom: 1px solid #5a5e62;
+    height: 120px;
+}
+.footer-content div {
+    margin-bottom: 15px;
+}
+.footer-content a {
+    font-size: 16px;
+}
+.btn-tt {
+    background: url("../icons/twitter-logo.png");
+}
+.btn-fb {
+    background: url("../icons/fb-logo.png");
+}
+.btn-em {
+    background: url("../icons/email-logo.png");
+}
+.btn-sm {
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@media (min-width: 640px) {
+    header {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    .txt-img {
+        top: 250px;
+        width: 50%;
+        text-align: center;
+        margin: auto;
+    }
+    .about {
+        width: 50%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .container{
+        width: 40%;
+    }
+    .team-text {
+        margin-bottom: 100px;
+    }
+    div .btn-team {
+        margin: auto;
+    }
+    .team-member {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    .btn-team {
+        width: 15%;
+    }
+    .btn-team:hover {
+        background: #1ca8bf
+    }
+    .btn-sm {
+        height: 20px;
+    }
+    .ft-right {
+        float: right;
+        text-align: right;
+    }
+    .ft-left {
+        float: left;
+        text-align: left;
+    }
+    .footer-content {
+        width: 80%;
+        margin: auto;
+        height: 80px;
+    }
+    .footer-content div a {
+         margin-top: 20px;
+    }
+    .ft-small {
+        text-align: right;
+        width: 80%;
+        margin-top: 10px;
+        margin: auto;
+        padding: 5px;
+    }
+    .ft-small div {
+        display: inline;
+    }
+    .ft-small div:nth-last-child(2) {
+        border-right: 1px solid #5a5e62;
+        border-left: 1px solid #5a5e62;
+    }
+    .ft-small a {
+        font-size: 10px;
+    }
 }
